@@ -16,11 +16,22 @@ This `Flutter` project is a complete tutorial demonstrating how to integrate `Fi
 - **Delete Items** (with confirmation dialog)
 - **Basic Dashboard Stats**
   - Total Item Count
-  - Simple Revenue Estimation
+  - Simple Revenue Estimation (₹100/item)
 
 ### State Management
 - **Provider** for real-time item list sync with Firestore
 - Clean separation of UI and business logic using service classes
+
+
+
+## Firebase Configuration
+Install FlutterFire from [FlutterFire docs](https://firebase.flutter.dev/docs/overview/).
+
+Enter this command to generate a file called `lib/firebase_options.dart` that contains your **Google API key** and project info.
+```
+# Run the `configure` command, select a Firebase project and platforms
+flutterfire configure
+```
 
 
 ## Credits
